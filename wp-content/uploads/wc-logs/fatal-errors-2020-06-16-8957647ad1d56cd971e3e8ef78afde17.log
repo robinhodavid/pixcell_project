@@ -1,0 +1,50 @@
+2020-06-16T14:07:09+00:00 CRITICAL syntax error, unexpected '.' in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 38
+
+2020-06-16T16:41:02+00:00 CRITICAL syntax error, unexpected '5' (T_LNUMBER) in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 37
+
+2020-06-16T16:41:31+00:00 CRITICAL syntax error, unexpected '1' (T_LNUMBER) in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 37
+
+2020-06-16T16:42:23+00:00 CRITICAL syntax error, unexpected '1' (T_LNUMBER) in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 37
+
+2020-06-16T16:50:14+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php:37
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template.php(725): require()
+#1 /var/www/html/pixcell/wp-includes/template.php(672): load_template('/var/www/html/p...', false)
+#2 /var/www/html/pixcell/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /var/www/html/pixcell/wp-content/themes/sublime/index.php(5): get_template_part('template-parts/...')
+#4 /var/www/html/pixcell/wp-includes/template-loader.php(106): include('/var/www/html/p...')
+#5 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#6 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#7 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 37
+
+2020-06-16T17:06:49+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 40
+
+2020-06-16T17:34:01+00:00 CRITICAL Uncaught Error: Call to undefined function wp_count_post() in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php:36
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template.php(725): require()
+#1 /var/www/html/pixcell/wp-includes/template.php(672): load_template('/var/www/html/p...', false)
+#2 /var/www/html/pixcell/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /var/www/html/pixcell/wp-content/themes/sublime/index.php(5): get_template_part('template-parts/...')
+#4 /var/www/html/pixcell/wp-includes/template-loader.php(106): include('/var/www/html/p...')
+#5 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#6 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#7 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 36
+
+2020-06-16T18:40:24+00:00 CRITICAL Cannot redeclare get_posts() (previously declared in /var/www/html/pixcell/wp-includes/post.php:2014) in /var/www/html/pixcell/wp-content/themes/sublime/functions.php on line 324
+
+2020-06-16T19:15:33+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php:38
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template.php(725): require()
+#1 /var/www/html/pixcell/wp-includes/template.php(672): load_template('/var/www/html/p...', false)
+#2 /var/www/html/pixcell/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /var/www/html/pixcell/wp-content/themes/sublime/index.php(5): get_template_part('template-parts/...')
+#4 /var/www/html/pixcell/wp-includes/template-loader.php(106): include('/var/www/html/p...')
+#5 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#6 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#7 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 38
+
+2020-06-16T19:23:22+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/pixcell/wp-content/themes/sublime/template-parts/main_slider.php on line 38
+

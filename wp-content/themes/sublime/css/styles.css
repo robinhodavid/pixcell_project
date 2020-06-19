@@ -1,0 +1,654 @@
+ /* ####################################################
+    :: Template Name: sublime - Pixcell Ecommerce Template
+    :: Author: Robert Rodríguez
+    :: Author URL: https://pixcellrs.com
+    :: Description: The theme is based in sublime template.
+    :: Version: 1.0.0
+    :: Created: Mayo 20, 2020
+    :: Last Updated: May 20, 2020
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+
+.cart-bg-overlay.cart-bg-overlay-on {
+  -webkit-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1050; }
+
+.right-side-cart-area
+{
+  position: fixed;
+  width: 670px;
+  height: 100%;
+  top: 0;
+  right: -800px;
+  background-color: #ffffff;
+  z-index: 1100;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+  .right-side-cart-area 
+  {
+    width: 500px;
+    right: -600px; 
+  } 
+}
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area 
+  {
+    width: 270px;
+    right: -400px; 
+  } 
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+  .right-side-cart-area 
+  {
+    width: 400px;
+    right: -550px; 
+  } 
+}
+
+.right-side-cart-area.cart-on 
+{
+    right: 0; 
+}
+
+.right-side-cart-area .cart-button a 
+{
+  position: absolute;
+  top: 0;
+  right: 100%;
+  z-index: 100;
+  width: 90px;
+  display: block;
+  text-align: center;
+  border-left: 1px solid #ebebeb;
+  height: 85px;
+  line-height: 80px;
+  background-color: #f5f7f9; 
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-button a 
+  {
+  width: 50px;
+  height: 50px;
+  line-height: 50px; 
+  } 
+}
+
+.right-side-cart-area .cart-button a img 
+{
+  max-width: 20px; 
+  }
+
+.right-side-cart-area .cart-button a span 
+{
+  color: #ffb500 ;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: -10px; 
+}
+
+.right-side-cart-area .cart-content 
+{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%; 
+}
+.right-side-cart-area .cart-content .cart-list 
+{
+  position: relative;
+  z-index: 10;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 190px;
+  flex: 0 0 190px;
+  width: 190px; 
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list 
+  {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
+  width: 100px; 
+  } 
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list 
+  {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  width: 150px; 
+  } 
+} 
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item
+{
+  position: relative;
+  z-index: 1;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; 
+}
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image 
+{
+  position: relative;
+  z-index: 1;
+  display: block; 
+}
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-thumb  
+{
+  width: 100%;
+  height: 210px;
+}
+
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 50px 15px 15px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; 
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc 
+  {
+  padding: 5px; 
+  } 
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc 
+  {
+  padding: 30px 20px; 
+  } 
+}
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .product-remove 
+{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px; 
+}
+
+@media only screen and (max-width: 767px) 
+{
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .product-remove 
+{
+  top: 5px;
+  right: 5px; 
+  } 
+}
+
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .badge 
+{
+  display: block;
+  font-weight: 600;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 0; 
+}
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc h6 
+{
+font-size: 12px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 30px; 
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc h6 
+  {
+  margin-bottom: 10px; 
+  } 
+}
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .size,
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .color 
+{
+  display: block;
+  font-weight: 600;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  line-height: 1; 
+}
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .price 
+{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 30px;
+  color: #ffffff; 
+}
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-list .single-cart-item .product-image .cart-item-desc .price 
+  {
+    margin-top: 10px;
+    font-size: 12px; 
+  } 
+}
+
+
+.right-side-cart-area .cart-content .cart-list .single-cart-item:hover .product-image .cart-item-desc 
+{
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.cart-amount-summary 
+{
+  left: 195px;
+  top: -660px;
+}
+.right-side-cart-area .cart-content .cart-amount-summary 
+{
+  padding: 100px 10%;
+  position: relative;
+  z-index: 10;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% - 190px);
+  flex: 0 0 calc(100% - 190px);
+  width: calc(100% - 190px); 
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary 
+  {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% - 100px);
+  flex: 0 0 calc(100% - 100px);
+  width: calc(100% - 100px);
+  padding: 50px 15px; 
+  } 
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary 
+  {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% - 150px);
+  flex: 0 0 calc(100% - 150px);
+  width: calc(100% - 150px);
+  padding: 50px 30px; 
+
+  } 
+}
+
+
+.right-side-cart-area .cart-content .cart-amount-summary h2 
+{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px; 
+
+}
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary h2 
+  {
+    font-size: 24px;
+    margin-bottom: 30px; 
+    } 
+}
+
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary h2 
+  {
+  font-size: 30px;
+  margin-bottom: 50px; 
+  } 
+}
+
+.right-side-cart-area .cart-content .cart-amount-summary .summary-table li 
+{
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; 
+}
+
+@media only screen and (max-width: 767px) {
+  .right-side-cart-area .cart-content .cart-amount-summary .summary-table li 
+  {
+  font-size: 12px;
+  margin-bottom: 10px; 
+  } 
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary .summary-table li 
+  {
+  font-size: 14px;
+  margin-bottom: 15px; 
+  } 
+}
+
+.right-side-cart-area .cart-content .cart-amount-summary .summary-table li span:last-child 
+{
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif; 
+}
+@media only screen and (max-width: 767px) 
+{
+  .right-side-cart-area .cart-content .cart-amount-summary .essence-btn 
+  {
+  min-width: 140px;
+  width: 140px;
+  padding: 0 15px; 
+  } 
+}
+
+
+/* Essence Button - estilos del botón para el Shopping Cart */
+.essence-btn {
+  display: inline-block;
+  min-width: 170px;
+  height: 50px;
+  color: #000;
+  border: 1px solid #ffb500;
+  border-radius: 3px;
+  padding: 0 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 50px;
+  /*background-color: #0315ff;*/
+  letter-spacing: 1.5px;
+  font-weight: 600; 
+  margin: 30px 104px; 
+  }
+
+  .essence-btn:hover {
+    color: #ffffff;
+    background-color: #ffb500;
+  } 
+
+  .essence-btn:focus {
+    color: #ffffff;
+    background-color: #ffb500; }
+
+/*Para el Logo de Whats App*/
+
+.content_ws {
+  position: fixed;
+  right: -1214px;
+  bottom: 45px;
+  z-index: 9;
+  left: 1200px;
+}
+.content_ws div a .logo-ws {
+  width: 3.5%;
+
+}
+
+.litle-instagram
+{
+padding-left: 92px;
+padding-bottom: 10px;
+  
+}
+.cart-instagram
+{
+width: 100%;
+background: #FFFFFF;
+padding-top: 20px;
+z-index: 2;
+}
+.product-instagram
+{
+width: 282px;
+margin-bottom: 58px;
+}
+
+.container-abut
+{
+  margin-top: 60px;
+}
+.col-about 
+{
+height: 750px;
+}
+.col-info
+{
+  background-color: #ffd400;
+}
+
+.home_title_about
+{
+  width: 70%;
+  padding-top: 245px;
+  left: 116px;
+  font-size: 55px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 1.2;
+  padding-bottom: 15px;  
+}
+
+.home_title_about span
+{
+ color:#ffab00;
+}
+
+.home_text_about
+{
+  width: 70%;
+  left: 116px;
+
+}
+.home_text_about p
+{
+  color: #fff;
+}
+
+.home_title_contact {
+  width: 80%;
+  padding-top: 120px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+
+/*Para darle estilos a la filas del formulario y mapa*/
+.form-map
+{
+  padding-top: 80px;
+  background-color: #fff;
+ padding-bottom: 80px;
+}
+
+.team-carrou
+{
+  padding-top: 85px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 100%;
+}
+.team_title
+{
+  bottom: 40px;
+}
+.team_title h2 {
+  font-size: 30px;
+  font-weight: 401;
+  color: #aeaeae;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/*Estilos del carrousel del team*/
+.team{
+  display: inline-block;
+  width: calc((100% - 90px) / 5); 
+  background-color: #fff;
+  box-shadow: 2px 3px 5px 0px rgba(128,126,128,1);
+  height: 380px;
+  margin: 5px;
+  border-radius: 3px; 
+}
+.team_content
+{
+
+  top: 16px;
+  height: 58px;
+  width: 242.85px;
+  left: 4px;
+
+}
+
+.team_image
+{
+  top: -25px;
+}
+.team .team_image img
+{
+  width: 92%;
+  height: 272px;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 2px 3px 5px 0px rgba(128,126,128,1);
+
+}
+.name_peaple{
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c6a74;
+  line-height: 0.75;
+  margin-top: 0px;
+}
+.team_social{
+  width: calc((100% / 4) - -12px);
+  display: inline-flex;
+}
+.team_social ul{
+  display: inline-flex;
+}
+.team_social ul li{
+  padding: 5px;
+  font-size: 20px;
+}
+.team_social ul li a
+{
+  color: #ffab00;
+}
+
+.title-card-productos
+{
+    text-align: left;
+    padding-bottom: 26px;
+    left: 60px;
+}
+
+/*Para los Testimonios*/
+.testimonios
+{
+background-color: #f5f5f5;
+bottom: 45px;
+}
+
+.title-card-testimonios{
+  top: 90px;
+  text-align: left;
+  left: 60px;
+}
+
+.wrapper{
+  width: 100%;
+  margin-top: 100px;
+  padding: 30px 0;
+}
+
+.slider-testimonial{
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+  height: 180px;
+}
+
+.testimonial-client{
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.testimonial-client img{
+  width: 10px;
+  margin:auto;
+}
+
+.client-name{
+  font-family: "Open sans";
+  font-weight: 600;
+  text-align: center;
+}
+
+.testimonial-text{
+  padding: 10px 120px;
+}
+
+.testimonial-text p{
+  font-family: "Open sans";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: #454545;
+}

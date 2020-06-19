@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pixcell</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Sublime project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Style sheet -->
+
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<!--<link rel="stylesheet" type="text/css" href="styles/responsive.css">-->
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo"><a href=index.html><img src="images/logo_pixcell.png" alt=""></a> 
+							</div>
+							<nav id="main_nav" class="main_nav">
+								<ul>
+									<li class="hassubs active">
+										<a href="index.html">Home</a>
+										<ul class="subhome">
+											<li><a href="categorias.html">Categorías</a></li>
+											<li><a href="productos.html">Productos</a></li>
+											<li><a href="cart.html">Cart</a></li>
+											<li><a href="checkout.html">Check out</a></li>
+											<li><a href="contacto.html">Contacto</a></li>
+										</ul>
+									</li>
+									<li class="hassubs">
+										<a href="categorias.html">Categorías</a>
+										<ul>
+											<li><a href="categorias.html">Teléfonos Inteligentes</a></li>
+											<li><a href="categorias.html">Accesorios</a></li>
+											<li><a href="categorias.html">Servicio Técnico</a></li>
+											<li><a href="categorias.html">Todas</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="contact.html">Contacto</a></li>
+								</ul>
+							</nav>
+							<div class="header_extra ml-auto">
+								<div class="shopping_cart">
+									<a href="#" id="essenceCartBtn">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
+											<g>
+												<path d="M440.1,422.7l-28-315.3c-0.6-7-6.5-12.3-13.4-12.3h-57.6C340.3,42.5,297.3,0,244.5,0s-95.8,42.5-96.6,95.1H90.3
+													c-7,0-12.8,5.3-13.4,12.3l-28,315.3c0,0.4-0.1,0.8-0.1,1.2c0,35.9,32.9,65.1,73.4,65.1h244.6c40.5,0,73.4-29.2,73.4-65.1
+													C440.2,423.5,440.2,423.1,440.1,422.7z M244.5,27c37.9,0,68.8,30.4,69.6,68.1H174.9C175.7,57.4,206.6,27,244.5,27z M366.8,462
+													H122.2c-25.4,0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h139.3v41
+													c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h45.2l26.9,302.3C412.8,445.2,392.1,462,366.8,462z"/>
+											</g>
+										</svg>
+										<div>Cart <span>(3)</span></div>
+									</a>
+								</div>
+								<div class="search">
+									<div class="search_icon">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										viewBox="0 0 475.084 475.084" style="enable-background:new 0 0 475.084 475.084;"
+										 xml:space="preserve">
+										<g>
+											<path d="M464.524,412.846l-97.929-97.925c23.6-34.068,35.406-72.047,35.406-113.917c0-27.218-5.284-53.249-15.852-78.087
+												c-10.561-24.842-24.838-46.254-42.825-64.241c-17.987-17.987-39.396-32.264-64.233-42.826
+												C254.246,5.285,228.217,0.003,200.999,0.003c-27.216,0-53.247,5.282-78.085,15.847C98.072,26.412,76.66,40.689,58.673,58.676
+												c-17.989,17.987-32.264,39.403-42.827,64.241C5.282,147.758,0,173.786,0,201.004c0,27.216,5.282,53.238,15.846,78.083
+												c10.562,24.838,24.838,46.247,42.827,64.234c17.987,17.993,39.403,32.264,64.241,42.832c24.841,10.563,50.869,15.844,78.085,15.844
+												c41.879,0,79.852-11.807,113.922-35.405l97.929,97.641c6.852,7.231,15.406,10.849,25.693,10.849
+												c9.897,0,18.467-3.617,25.694-10.849c7.23-7.23,10.848-15.796,10.848-25.693C475.088,428.458,471.567,419.889,464.524,412.846z
+												 M291.363,291.358c-25.029,25.033-55.148,37.549-90.364,37.549c-35.21,0-65.329-12.519-90.36-37.549
+												c-25.031-25.029-37.546-55.144-37.546-90.36c0-35.21,12.518-65.334,37.546-90.36c25.026-25.032,55.15-37.546,90.36-37.546
+												c35.212,0,65.331,12.519,90.364,37.546c25.033,25.026,37.548,55.15,37.548,90.36C328.911,236.214,316.392,266.329,291.363,291.358z
+												"/>
+										</g>
+									</svg>
+									</div>
+								</div>
+								<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Search Panel -->
+		<div class="search_panel trans_300">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="search_panel_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#">
+								<input type="text" class="search_input" placeholder="Search" required="required">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Social -->
+		<div class="header_social">
+			<ul>
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- ##### Right Side Cart Area ##### -->
+    <div class="cart-bg-overlay"></div>
+    <div class="right-side-cart-area"> 
+	        <!-- Cart Button -->
+	        <div class="cart-button">
+		        <a href="#" id="rightSideCart">
+		        	<img src="images/shopping.svg" alt=""> 
+		        	<span>3</span>
+		        </a>
+	        </div>
+			<div class="cart-content">
+				<!-- Cart List Area -->
+				 <div class="cart-list">
+				 	 <!-- Single Cart Item -->
+		                <div class="single-cart-item">
+		                    <a href="#" class="product-image">
+		                        <img src="images/camara-2.webp" class="cart-thumb" alt="">
+		                        <!-- Cart Item Desc -->
+		                        <div class="cart-item-desc">
+		                          <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+		                            <span class="badge">Cámara</span>
+		                            <h6>Cámra Digital Pro 453B</h6>
+		                            <!--<p class="size">Size: S</p> -->
+		                            <p class="color">Color: Blanco</p>
+		                            <p class="price">$450.00</p>
+		                        </div>
+		                    </a>
+		                </div>
+		        <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="images/product_9.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                          <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Drone</span>
+                            <h6>Drone XYX a gasolina</h6>
+                            <!--<p class="size">Size: S</p> -->
+                            <p class="color">Color: Blanco</p>
+                            <p class="price">$450.00</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Single Cart Item -->
+               <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="images/A11-a.webp" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Smart Phone</span>
+                            <h6>Samsung A20 última Generación</h6>
+                            <!--<p class="size">Size: S</p>-->
+                        <p class="color">Color: Varios</p>
+                            <p class="price">$450.00</p>
+                        </div>
+                    </a>
+                </div>
+			</div> <!-- Cart List Area - end-->
+			            <!-- Cart Summary -->
+           <div class="cart-amount-summary">
+
+                <h2>Resumen</h2>
+                <ul class="summary-table">
+                    <li><span>subtotal:</span> <span>$1350.00</span></li>
+                    <li><span>delivery:</span> <span>Free</span></li>
+                    <li><span>discount:</span> <span>-15%</span></li>
+                    <li><span>total:</span> <span>$1147.50</span></li>
+                </ul>
+                <div class="checkout-btn mt-100">
+                    <a href="checkout.html" class="btn essence-btn">check out</a>
+                </div>
+            </div>
+		</div>
+	</div> <!-- ##### Right Side Cart Area- End ##### -->
+
+	<!-- Menu -->
+	<div class="container-fluid container-abut">
+		<div class="row">
+				<!-- Sección de About con imagen incluida-->
+				<div class="col-md-8 col-about">
+					<div class="home_background" style="background-image:url(images/b-about.jpg)"> 
+						<div class="home_title_about">Nosotros<span>.</span></div>
+								<div class="home_text_about"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viverra velit venenatis fermentum luctus.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed viverra velit venenatis fermentum luctus.</p>
+							   </div>
+							   
+						</div>
+					
+
+				</div>
+				<!-- Información de Contacto -->
+				<div class="col-md-4 col-info">
+					<div class="contact_info">
+						<div class="home_title_contact">Información de Contacto<span>.</span></div>
+						<div class="contact_info_section">
+							<svg id="Layer_1" enable-background="new 0 0 512 512" height="40" viewBox="0 0 512 512" width="40" xmlns="http://www.w3.org/2000/svg"><g>
+							<path d="m256.001 512c-11.176 0-21.184-5.796-26.77-15.505-.059-.102-.116-.205-.173-.308l-126.962-232.386c-30.306-55.471-29.437-121.312 2.325-176.124 31.073-53.624 86.265-86.385 147.639-87.637 2.622-.054 5.258-.054 7.878 0 61.375 1.252 116.567 34.013 147.641 87.637 31.762 54.812 32.631 120.652 2.325 176.124l-126.962 232.386c-.057.103-.114.206-.173.308-5.585 9.708-15.592 15.505-26.768 15.505zm-.001-480c-1.099 0-2.195.011-3.289.033-50.099 1.022-95.185 27.821-120.604 71.688-26.107 45.055-26.829 99.162-1.93 144.736l125.823 230.3 125.822-230.299c24.899-45.575 24.178-99.682-1.931-144.737-25.419-43.866-70.505-70.666-120.604-71.688-1.091-.022-2.188-.033-3.287-.033z"/>
+							<path d="m256 232c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z"/></g>
+						</svg><div class="contact_info_title">Ubicados en:</div>
+							<ul>
+								<li>Av. Jacinto Lara, Centro Comercial UNIPLAZA CENTRO</li>
+							</ul>
+						</div>
+						<div class="contact_info_section">
+							<svg id="Capa_1" enable-background="new 0 0 443.294 443.294" height="40" viewBox="0 0 443.294 443.294" width="40" xmlns="http://www.w3.org/2000/svg">
+								<path d="m221.647 0c-122.214 0-221.647 99.433-221.647 221.647s99.433 221.647 221.647 221.647 221.647-99.433 221.647-221.647-99.433-221.647-221.647-221.647zm0 415.588c-106.941 0-193.941-87-193.941-193.941s87-193.941 193.941-193.941 193.941 87 193.941 193.941-87 193.941-193.941 193.941z"/>
+								<path d="m235.5 83.118h-27.706v144.265l87.176 87.176 19.589-19.589-79.059-79.059z"/></svg><div class="contact_info_title">Horario de Atención</div>
+							<ul>
+								<li>Am: <span>08:00 - 12:00</span></li>
+								<li>Pm: <span>01:00 - 05:00</span></li>
+							</ul>
+						</div>
+						<div class="contact_info_section">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.874 511.874" heigth="40" style="enable-background:new 0 0 511.874 511.874;" width="40" xml:space="preserve">
+							<path d="M490.114,12.813H132.568c-12.012,0.014-21.746,9.748-21.76,21.76v98.62l-16.35-24.525
+								c-7.484-11.289-22.535-14.676-34.133-7.68l-33.638,20.224c-11.016,6.464-19.097,16.946-22.545,29.244
+								c-12.271,44.681-3.166,121.66,109.824,234.667C203.821,474.885,270.816,499.06,316.99,499.06
+								c10.69,0.049,21.339-1.34,31.659-4.13c12.293-3.448,22.775-11.518,29.252-22.519l20.198-33.673
+								c6.968-11.589,3.584-26.609-7.68-34.091l-80.546-53.692c-11.049-7.308-25.859-4.905-34.031,5.521l-23.45,30.148
+								c-2.451,3.226-6.897,4.166-10.445,2.21l-4.463-2.458c-14.686-8.004-32.964-17.971-69.879-54.886
+								c-3.994-3.994-7.612-7.731-11.008-11.307h333.517c11.982,0.009,21.713-9.676,21.76-21.658V34.573
+								C511.86,22.561,502.126,12.827,490.114,12.813z M229.318,401.362l4.335,2.381c10.897,6.093,24.614,3.266,32.213-6.639
+								l23.45-30.148c2.666-3.396,7.49-4.179,11.093-1.801l80.546,53.692c3.659,2.439,4.759,7.321,2.5,11.093l-20.198,33.673
+								c-4.218,7.233-11.071,12.553-19.123,14.848c-40.337,11.093-110.933,1.707-218.078-105.446S9.56,195.273,20.627,154.97
+								c2.293-8.051,7.61-14.903,14.839-19.123l33.673-20.207c3.773-2.254,8.652-1.155,11.093,2.5l53.717,80.546
+								c2.382,3.602,1.599,8.43-1.801,11.093l-30.157,23.458c-9.903,7.597-12.731,21.311-6.639,32.205l2.389,4.335
+								c8.533,15.65,19.14,35.123,57.805,73.779C194.212,382.213,213.677,392.828,229.318,401.362z M494.808,298.526
+								c-0.028,2.567-2.127,4.627-4.693,4.608H141.203c-11.083-12.674-20.64-26.604-28.476-41.506l-2.458-4.48
+								c-1.96-3.54-1.022-7.982,2.202-10.428l30.157-23.458c10.43-8.17,12.833-22.982,5.521-34.031l-20.275-30.43V34.573
+								c-0.014-1.249,0.476-2.451,1.359-3.334c0.883-0.883,2.085-1.373,3.334-1.359h357.547c1.249-0.014,2.451,0.476,3.334,1.359
+								c0.883,0.883,1.373,2.085,1.359,3.334V298.526z"/>
+							<path d="M460.725,52.323l-142.618,108.16c-4.035,2.932-9.499,2.932-13.534,0L162.008,52.323
+								c-3.756-2.849-9.111-2.113-11.959,1.643c-2.849,3.756-2.113,9.111,1.643,11.959l142.583,108.151
+								c10.144,7.494,23.989,7.494,34.133,0L471.034,65.925c1.805-1.368,2.992-3.398,3.299-5.642c0.307-2.244-0.29-4.518-1.661-6.321
+								C469.824,50.213,464.478,49.48,460.725,52.323z"/>
+							<path d="M238.517,174.793l-87.415,93.611c-3.214,3.447-3.025,8.848,0.422,12.062c3.447,3.214,8.848,3.025,12.062-0.422
+								l87.416-93.653c2.888-3.484,2.553-8.617-0.762-11.698C246.924,171.612,241.78,171.656,238.517,174.793z"/>
+							<path d="M384.728,174.793c-3.214-3.447-8.614-3.637-12.062-0.422c-3.447,3.214-3.637,8.614-0.422,12.062l87.39,93.611
+								c3.214,3.447,8.614,3.637,12.062,0.422c3.447-3.214,3.637-8.614,0.422-12.062L384.728,174.793z"/></svg><div class="contact_info_title">Contactos</div>
+							<ul>
+								<li>Telf: <span>+58 269 245 5555</span></li>
+								<li>Email: <span>hola@pixcell.com</span></li>
+							</ul>
+					<div class="contact_info_section">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 505.4 505.4" heigth="40" style="enable-background:new 0 0 505.4 505.4;" width="40" xml:space="preserve">
+							<path d="M437.1,233.45c14.8-10.4,24.6-27.7,24.6-47.2c0-31.9-25.8-57.7-57.7-57.7c-31.9,0-57.7,25.8-57.7,57.7
+								c0,19.5,9.7,36.8,24.6,47.2c-12.7,4.4-24.3,11.2-34.1,20c-13.5-11.5-29.4-20.3-46.8-25.5c21.1-12.8,35.3-36.1,35.3-62.6
+								c0-40.4-32.7-73.1-73.1-73.1c-40.4,0-73.1,32.8-73.1,73.1c0,26.5,14.1,49.8,35.3,62.6c-17.2,5.2-32.9,13.9-46.3,25.2
+								c-9.8-8.6-21.2-15.3-33.7-19.6c14.8-10.4,24.6-27.7,24.6-47.2c0-31.9-25.8-57.7-57.7-57.7s-57.7,25.8-57.7,57.7
+								c0,19.5,9.7,36.8,24.6,47.2C28.5,247.25,0,284.95,0,329.25v6.6c0,0.2,0.2,0.4,0.4,0.4h122.3c-0.7,5.5-1.1,11.2-1.1,16.9v6.8
+								c0,29.4,23.8,53.2,53.2,53.2h155c29.4,0,53.2-23.8,53.2-53.2v-6.8c0-5.7-0.4-11.4-1.1-16.9H505c0.2,0,0.4-0.2,0.4-0.4v-6.6
+								C505.2,284.85,476.8,247.15,437.1,233.45z M362.3,186.15c0-23,18.7-41.7,41.7-41.7s41.7,18.7,41.7,41.7
+								c0,22.7-18.3,41.2-40.9,41.7c-0.3,0-0.5,0-0.8,0s-0.5,0-0.8,0C380.5,227.45,362.3,208.95,362.3,186.15z M194.9,165.35
+								c0-31.5,25.6-57.1,57.1-57.1s57.1,25.6,57.1,57.1c0,30.4-23.9,55.3-53.8,57c-1.1,0-2.2,0-3.3,0c-1.1,0-2.2,0-3.3,0
+								C218.8,220.65,194.9,195.75,194.9,165.35z M59.3,186.15c0-23,18.7-41.7,41.7-41.7s41.7,18.7,41.7,41.7c0,22.7-18.3,41.2-40.9,41.7
+								c-0.3,0-0.5,0-0.8,0s-0.5,0-0.8,0C77.6,227.45,59.3,208.95,59.3,186.15z M125.5,320.15H16.2c4.5-42.6,40.5-76,84.2-76.3
+								c0.2,0,0.4,0,0.6,0s0.4,0,0.6,0c20.8,0.1,39.8,7.8,54.5,20.3C141.7,279.75,131,298.95,125.5,320.15z M366.8,359.95
+								c0,20.5-16.7,37.2-37.2,37.2h-155c-20.5,0-37.2-16.7-37.2-37.2v-6.8c0-62.1,49.6-112.9,111.3-114.7c1.1,0.1,2.3,0.1,3.4,0.1
+								s2.3,0,3.4-0.1c61.7,1.8,111.3,52.6,111.3,114.7V359.95z M378.7,320.15c-5.5-21.1-16-40-30.3-55.6c14.8-12.8,34-20.5,55-20.7
+								c0.2,0,0.4,0,0.6,0s0.4,0,0.6,0c43.7,0.3,79.7,33.7,84.2,76.3H378.7z"/>
+						</svg><div class="contact_info_title">Nuestros Profesionales</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- Información de Contacto - End -->
+		</div> <!-- row end-->
+		
+		<div class="row form-map"> <!--formulario y mapa -->
+			<div class="col-md-6 contact_col"> 
+				<div class="get_in_touch">
+					<!--	<div class="section_title">Get in Touch</div>
+					<div class="section_subtitle">Say hello</div> -->
+					<div class="contact_form_container">
+						<form action="#" id="contact_form" class="contact_form">
+							<div class="row">
+								<div class="col-xl-6">
+									<!-- Name -->
+									<label for="contact_name">Nombre y Apellido (*)</label>
+									<input type="text" id="contact_name" class="contact_input" required="required">
+								</div>
+								
+								<div class="col-xl-6 last_name_col">
+									<!-- Last Name -->
+									<label for="contact_last_name">Correo (*)</label>
+									<input type="Email" id="contact_last_name" class="contact_input" required="required">
+								</div>
+							</div>
+							<div>
+								<!-- Subject -->
+								<label for="contact_company">Asunto</label>
+								<input type="text" id="contact_company" class="contact_input">
+							</div>
+							
+							<div>
+								<label for="contact_textarea">Mensaje*</label>
+								<textarea id="contact_textarea" class="contact_input contact_textarea" required="required"></textarea>
+							</div>
+	
+							<div class="button contact_button"><a href="#">Enviar</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<div class="row map_row">
+					<div class="col">
+						<!-- Google Map -->
+						<div class="map">
+							<div id="google_map" class="google_map">
+								<div class="map_container">
+									<div id="map">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!--row form-map end-->
+	   
+		<div class="row team-carrou"> Carrousel de Team
+			<div class="col">
+				
+			</div>
+
+		</div>
+
+
+
+	</div> <!-- container fluid end-->
+
+		
+	
+	<!-- Para colocar el Whats app-->
+
+    <div class="content_ws">
+		<div>
+			<a href="https://api.whatsapp.com/send?phone=584265610275&text=Hola!%20en%20minutos%20te %20atenderemos.">
+			<img class="logo-ws" src="images/wslogo.png">
+			</a>
+		</div>
+	</div>    <!-- Fin del Whats app-->
+
+	<!-- Footer -->
+	
+	<div class="footer_overlay"></div>
+	<footer class="footer">
+		<div class="footer_background">
+			 <!-- Se quitó la imagen de fondo -->
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+						<div class="footer_logo">
+							<img src="images/logo_pixcell_blanco.png" alt=""> <!-- Se coloca el logo-->
+						</div>
+						
+						<div class="copyright ml-auto mr-auto">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Pixcell. Todos los derechos reservados <a href="https://colorlib.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+						<div class="footer_social ml-lg-auto">
+							<ul>
+								<!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="js/contact.js"></script>
+<!--<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script> -->
+
+ <!-- Active js -->
+<script src="js/active.js"></script>  
+ 
+
+</body>
+</html>

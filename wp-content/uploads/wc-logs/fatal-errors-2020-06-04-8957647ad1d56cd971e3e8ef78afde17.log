@@ -1,0 +1,36 @@
+2020-06-04T04:08:26+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 14
+
+2020-06-04T04:32:07+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/pixcell/wp-content/themes/sublime/index.php:13
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 13
+
+2020-06-04T21:30:07+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 428
+
+2020-06-04T21:30:40+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/pixcell/wp-content/themes/sublime/index.php:102
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 102
+
+2020-06-04T21:31:30+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/pixcell/wp-content/themes/sublime/index.php:102
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 102
+
+2020-06-04T21:33:58+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/pixcell/wp-content/themes/sublime/index.php:102
+Stack trace:
+#0 /var/www/html/pixcell/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/pixcell/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/pixcell/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 102
+

@@ -1,0 +1,4 @@
+2020-06-18T18:11:24+00:00 CRITICAL syntax error, unexpected ''menu_class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/pixcell/wp-content/themes/sublime/header.php on line 63
+
+2020-06-18T18:52:21+00:00 CRITICAL syntax error, unexpected ''menu_class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/pixcell/wp-content/themes/sublime/header.php on line 61
+

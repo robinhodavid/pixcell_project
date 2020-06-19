@@ -1,0 +1,4 @@
+2020-06-03T19:21:18+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/pixcell/wp-content/themes/sublime/index.php on line 440
+
+2020-06-03T21:35:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/pixcell/wp-includes/class-wp-hook.php on line 283
+
